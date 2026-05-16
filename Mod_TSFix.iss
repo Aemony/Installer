@@ -374,8 +374,8 @@ begin
       end
       else
       begin
-          Log('Removing original file as the game have been uninstalled: {#BackupFile}');
-          DeleteFile(ExpandConstant('{app}\{#BackupFile}.bak'));
+        Log('Removing original file as the game have been uninstalled: {#BackupFile}');
+        DeleteFile(ExpandConstant('{app}\{#BackupFile}.bak'));
       end;
     end;
 #endif
